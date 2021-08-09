@@ -2,11 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Grid III</title>
+    <title>Nucba Conf :)</title>
   </head>
 
   <body>
@@ -89,7 +88,7 @@
       </section>
 
       <section class="about">
-        <video src="./assets/videoPeola.mp4" autoplay loop></video>
+        <video autoplay loop src="./assets/videoPeola.mp4"></video>
         <div class="about__details">
           <h2>VAMOS A CODEAR!</h2>
           <p>Slim Profile, easy to hold and loaded with cheese.</p>
@@ -112,13 +111,16 @@
         <img src="https://source.unsplash.com/random/207x210" alt="" />
       </section>
     </div>
+
     <script>
       const navButton = document.querySelector("button[aria-expanded]");
+
       function toggleNav({ target }) {
-        const expandir =
+        const expanded =
           target.getAttribute("aria-expanded") === "true" || false;
-        navButton.setAttribute("aria-expanded", !expandir);
+        navButton.setAttribute("aria-expanded", !expanded);
       }
+
       navButton.addEventListener("click", toggleNav);
     </script>
   </body>

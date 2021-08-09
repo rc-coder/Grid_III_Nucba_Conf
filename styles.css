@@ -103,10 +103,11 @@ img {
 }
 
 .feature {
-  background: #fff;
+  background: lightgray;
   padding: 10px;
   text-align: center;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  border-top-right-radius: 25px;
 }
 
 .feature .icon {
@@ -119,6 +120,8 @@ img {
 
 .feature h3 {
   background: var(--color-cheto);
+  border-radius: 3px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
 
 /* ABOUT */

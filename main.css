@@ -1,8 +1,5 @@
 :root {
-  --color-cheto: linear-gradient(
-    0deg,
-    rgba(55, 0, 140, 0.9934348739495799) 0%,
-    rgba(197, 12, 204, 1) 100%
+  --color-cheto: linear-gradient(0deg, rgba(198,40,179,1) 12%, rgba(54,71,193,1) 88%);
   );
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -23,7 +20,14 @@ html {
 }
 
 body {
-  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  background: rgb(5, 10, 56);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 10, 56, 1) 0%,
+    rgba(251, 17, 223, 1) 12%,
+    rgba(34, 60, 247, 1) 88%,
+    rgba(0, 0, 0, 1) 100%
+  );
   min-height: calc(100vh - 100px);
   margin: 50px;
   background-attachment: fixed;
